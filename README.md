@@ -62,41 +62,29 @@
 
 ## 核心方法
   
-#### 1.方法1：speed使用访问权限，不能直接访问，用此方法用其他变量间接替代
+#### speed使用访问权限，不能直接访问，用此方法用其他变量间接替代
 
 public void setSpeed(int m){
  this.speed = m;
  }
-int getSpeed(){  //定义方法
- return speed ;//返回值
+int getSpeed(){  
+ return speed ;
  }
-#### 2.方法2：this关键词表示当前对象的变量，分配给该对象的实例成员变量
+ 
+#### this关键词表示当前对象的变量，分配给该对象的实例成员变量
 
 public void settem( int tem) {
  if(tem>=45&&tem<=65) {
   this.tem=tem;
  }
 }
-#### 3.方法3：使用“System.out.println（）”方法输出所期望的值
 
-  void show(){
-    System.out.println("CPU速度："+cpu.getSpeed());
-    System.out.println("硬盘容量："+HD.getAmount());
-    System.out.println("CPU温度："+cpu.gettem());
-    System.out.println("硬盘的品牌："+HD.getBrand());
-}
-
-#### 4.方法4：使用if方法进行判断
-
- public void settem( int tem) {
- if(tem>=45&&tem<=65) {
-  this.tem=tem;
- }
-}
 
 ## 实验结果
 
-!【实验结果】()
+!【实验结果】(https://github.com/GuoRuChang-226/JAVA/blob/main/e5c2d91576ba62187ea5922f11b7444.png)
 
 
 ## 实验感想
+
+#### 本次实验让我了解了如何使用关键字，来控制对变量的访问权限，如果有重要内容不想被他人随意访问，就使用private。在实验过程中，对于包和类的创建、使用更加熟悉，让我对Java的编程的了解更深了一点。
