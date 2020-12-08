@@ -96,5 +96,7 @@ public void settem( int tem) {
 
 ## 实验结果
 
+!【实验结果】()
+
 
 ## 实验感想
